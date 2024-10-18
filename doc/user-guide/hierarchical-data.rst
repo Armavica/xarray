@@ -177,7 +177,7 @@ Let's use a different example of a tree to discuss more complex relationships be
         "/Bony Skeleton/Four Limbs/Amniotic Egg/Two Fenestrae/Dinosaurs"
     ]
 
-We have used the :py:meth:`~xarray.DataTree.from_dict` constructor method as a prefered way to quickly create a whole tree,
+We have used the :py:meth:`~xarray.DataTree.from_dict` constructor method as a preferred way to quickly create a whole tree,
 and :ref:`filesystem paths` (to be explained shortly) to select two nodes of interest.
 
 .. ipython:: python
@@ -658,7 +658,7 @@ Data Alignment
 ~~~~~~~~~~~~~~
 
 The data in different datatree nodes are not totally independent. In particular dimensions (and indexes) in child nodes must be exactly aligned with those in their parent nodes.
-Exact aligment means that shared dimensions must be the same length, and indexes along those dimensions must be equal.
+Exact alignment means that shared dimensions must be the same length, and indexes along those dimensions must be equal.
 
 .. note::
     If you were a previous user of the prototype `xarray-contrib/datatree <https://github.com/xarray-contrib/datatree>`_ package, this is different from what you're used to!
