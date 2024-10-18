@@ -23,6 +23,10 @@ repos:
       - id: rst-directive-colons
       - id: rst-inline-touching-normal
       - id: text-unicode-replacement-char
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.18
+    hooks:
+    - id: mdformat
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
     rev: 'v0.6.9'
